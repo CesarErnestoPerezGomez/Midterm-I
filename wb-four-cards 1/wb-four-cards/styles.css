@@ -1,86 +1,96 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: white;
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  
-  .feature-section {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .header h1 {
-    font-size: 24px;
-    color: #4C4E61;
-    font-weight: 200;
-  }
-  
-  .header h2 {
-    font-size: 28px;
-    color: #4C4E61;
-    font-weight: 600;
-    margin-top: 10px;
-  }
-  
-  .header p {
-    color: #A3A5AE;
-    font-size: 15px;
-    margin-top: 20px;
-  }
-  
-  .cards {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-    flex-wrap: wrap;
-  }
-  
-  .card {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 220px;
-    margin: 10px;
-    text-align: left;
-    transition: transform 0.3s ease;
-  }
-  
-  .card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .card h3 {
-    font-size: 18px;
-    color: #4C4E61;
-    margin-bottom: 10px;
-  }
-  
-  .card p {
-    color: #A3A5AE;
-    font-size: 15px;
-  }
-  
-  .supervisor {
-    border-top: 4px solid #45D3D3;
-  }
-  
-  .team-builder {
-    border-top: 4px solid #EA5353;
-  }
-  
-  .calculator {
-    border-top: 4px solid #549EF2;
-  }
-  
-  .karma {
-    border-top: 4px solid #FCAF4A;
-  }
-  
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.feature-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 30px; 
+  color: slategray;
+  font-weight: 200;
+}
+
+.header h2 {
+  font-size: 34px;
+  color: slategray;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.header p {
+  color: darkgray;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px; 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+  padding: 30px; 
+  width: 300px; 
+  height: 300px; 
+  margin: 20px; 
+  text-align: left;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-10px); 
+}
+
+.card h3 {
+  font-size: 24px; 
+  color: slategray;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: darkgray;
+  font-size: 18px; 
+}
+
+.supervisor {
+  border-top: 6px solid mediumturquoise; 
+}
+
+.team-builder {
+  border-top: 6px solid indianred;
+}
+
+.calculator {
+  border-top: 6px solid cornflowerblue;
+}
+
+.karma {
+  border-top: 6px solid darkorange;
+}
+
+.card img {
+  position: absolute;
+  bottom: 20px; 
+  right: 20px;
+  width: 80px; 
+  height: 80px; 
+}
